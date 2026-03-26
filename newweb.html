@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chang</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-green-50 font-serif min-h-screen flex flex-col">
+
+  <!-- ===== HEADER ===== -->
+  <header class="w-full border-b border-gray-200">
+    <div class="max-w-5xl mx-auto px-8 py-4 flex items-center gap-8">
+      <!-- Logo -->
+      <div class="flex items-center gap-2 mr-auto">
+        <!-- Hollow Knight icon placeholder -->
+        <img class="h-8 w-8 rounded-full object-cover" src="C:\\Users\\cxu49\\images\\IMG_3480.jpg" alt="Logo">
+        <span class="font-medium text-gray-800">Chang</span>
+      </div>
+      <!-- Nav -->
+      <nav class="flex gap-6 text-sm text-gray-700">
+        <a href="#" class="hover:text-gray-900 transition-colors">About</a>
+        <a href="#" class="hover:text-gray-900 transition-colors">Interests</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main class="flex-1 flex items-center justify-center px-8 py-20 bg-green-50 ">
+    <div class="max-w-5xl w-full">
+
+      <!-- About row -->
+      <section id="about" class="flex items-center gap-12 max-w-7xl w-full mb-12">
+        <!-- 左邊：圖片 -->
+        <div class="flex justify-center">
+          <div 
+            class="w-80 h-80 rounded-full border-4 border-white shadow-lg bg-cover bg-center"
+            style="background-image:url('C:\\Users\\cxu49\\images\\IMG_3480.jpg');"
+          ></div>
+        </div>
+  
+        <!-- 右邊：自我介紹 -->
+        <div class="space-y-4">
+          <h2 class="text-5xl font-bold">Chang</h2>
+          <p class="text-lg text-slate-700">
+              我是大同大學資工系的學生，對新事物充滿強烈好奇心。
+              我的主要興趣是玩LOL和coding。
+              (想去鳳梨田讀碩)
+            </p>
+          <p class="text-lg text-slate-700">
+              我目前是大一學生，
+              並且是The shy的粉絲。      
+            </p>
+          <div class="flex items-center justify-end gap-6 text-4xl text-slate-700 pt-2">
+            <a href="https://www.instagram.com/xsc_0812?igsh=MWNjZGVicnUzODlhag%3D%3D&utm_source=qr" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://github.com/0812tony96" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://discord.com/users/shouqiang5050" target="_blank">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== INTERESTS CARDS ===== -->
+      <section id="interests" class="mt-10 pt-4 grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+
+        <div class="rounded-2xl bg-cyan-400 px-6 py-7 border border-gray-200 shadow-sm flex flex-col justify-between transform transition duration-300 hover:-translate-y-2 hover:scale-105">
+          <div>
+            <p class="text-xs text-neutral-950 font-medium tracking-wide mb-1">Interest</p>
+            <h3 class="text-xl text-gray-900 mb-2">Foods</h3>
+            <p class="text-sm text-gray-700 leading-relaxed mb-5">愛吃的美食</p>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-3">
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">炒飯</span>
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">阿嬤的滷肉飯</span>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-violet-400 px-6 py-7 border border-gray-200 shadow-sm flex flex-col justify-between transform transition duration-300 hover:-translate-y-2 hover:scale-105">
+          <div>
+            <p class="text-xs text-neutral-950 font-medium tracking-wide mb-1">Interest</p>
+            <h3 class="text-xl text-gray-900 mb-2">Games</h3>
+            <p class="text-sm text-gray-700 leading-relaxed mb-5">大亂鬥愛好者,還有一些單機遊戲</p>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-3">
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">LOL</span>
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">三國無雙起源</span>
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">Eldenring</span>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-rose-400 px-6 py-7 border border-gray-200 shadow-sm flex flex-col justify-between transform transition duration-300 hover:-translate-y-2 hover:scale-105">
+          <div>
+            <p class="text-xs text-neutral-950 font-medium tracking-wide mb-1">Interest</p>
+            <h3 class="text-xl text-gray-900 mb-2">Music</h3>
+            <p class="text-sm text-gray-700 leading-relaxed mb-5">常聽的幾個</p>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-3">
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">Moonlit Dream</span>
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">Alan Walker一系列的歌</span>
+            <span class="text-xs bg-white text-gray-800 px-2 py-1 rounded-full border border-gray-200 transition hover:bg-gray-100 hover:text-gray-900 cursor-pointer">YT Nekonoma裡的歌</span>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="text-center text-sm text-gray-500 py-6">
+   <p>© 2026 Chang All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
